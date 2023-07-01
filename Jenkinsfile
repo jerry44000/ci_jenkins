@@ -20,7 +20,7 @@ pipeline {
     stages {
         stage ('Build') {
             steps {
-                sh 'mvn -s settingsxml -DskipTests install'
+                sh 'mvn -s $JENKINS_HOME/workspace/vp-ci-pipeline/settings.xml -DskipTests install'
             }
         }
     }
