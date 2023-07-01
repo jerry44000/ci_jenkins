@@ -11,7 +11,7 @@ pipeline {
         NEXUS_PASS = 'azerty'
         RELEASE_REPO = 'vp-release'
         CENTRAL_REPO = 'vp-maven-central'
-        NEXUSIP = '172.31.89.24'
+        NEXUSIP = '172.31.84.70'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'vp-maven-group'
         NEXUS_LOGIN = 'nexuslogin'
