@@ -21,7 +21,10 @@ pipeline {
         NEXUS_GRP_REPO = 'vp-maven-group'
         NEXUS_LOGIN = 'nexuslogin'
         SONARSERVER = 'sonarserver'
-        SONARSCANNER = 'sonarscanner'
+        SONARSCANNER = 'sonarscanner',
+        registryCredential = 'ecr:us-east-1:awscreds'
+        appRegistry = ''
+        vproRegistry = 
     }
 
     stages {
